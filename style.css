@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+    margin: 0;
+}
+
+main {
+    flex: 1; /* Expand to fill the remaining space */
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
